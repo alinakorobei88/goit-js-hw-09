@@ -1,0 +1,30 @@
+.gallery  {
+  border: none;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  padding: 24px 156px;
+  width: 100%;
+}
+
+.gallery-item:hover {
+  stroke-width: 0;
+  color: #4E75FF;
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  justify-content: center;
+}
+
+.gallery-link {
+  background: rgba(46, 47, 66, 0.80);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}

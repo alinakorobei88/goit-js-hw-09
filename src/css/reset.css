@@ -1,4 +1,5 @@
 /* Reset styles */
+
 h1,
 h2,
 h3,
@@ -13,10 +14,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+ul, ol {
   list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -31,5 +33,5 @@ button {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto
 }
